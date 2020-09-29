@@ -1,0 +1,9 @@
+echo "Enter a string : "
+read str
+s="Hello World"
+if [ "$str" != "$s" ]
+then
+  echo "$str is not equal to $s."
+else
+  echo "$str is equal to $s."
+fi
